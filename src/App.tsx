@@ -262,7 +262,7 @@ export default function App() {
                   {/* Stats */}
                   <div className="flex items-center justify-between text-[10px]">
                     <span className="mc-text mc-text-gold">v{project.version}</span>
-                    <span className="mc-text-gray-400">⬇ {project downloads.toLocaleString()}</span>
+                    <span className="mc-text-gray-400">{'\u2B07'} {project.downloads.toLocaleString()}</span>
                   </div>
                   
                   {/* Rarity indicator */}
